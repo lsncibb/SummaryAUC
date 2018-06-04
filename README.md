@@ -21,7 +21,7 @@ KG.plink.pre, 1000 genome plink format file pre.
 
 pos_thr, the threshold for distance of SNPs, correlation will be caculated for any SNP pairs within this distance 
 
-flag.correlation.adj.imputated.data, a logical flag, If FALSE, 1000 genome plink data will be used for correlation adjust; If TRUE, 1000 genome imputation data will be used for correlation adjust;
+flag.correlation.adj.imputated.data, a logical flag, If FALSE, 1000 genome plink data will be used for correlation adjust. If TRUE, 1000 genome imputation data will be used for correlation adjust, here, imputation should be run with the genotyped SNPs only with 1000 genome plink on impute2, and the imputation results should be split into 22 chromosomes in to such format: first five columns must be "CHR", "SNP", "POS", "A1" and "A2", the rest columns are samples' dosage for "A1", each column for a sample (file name should be "dosage.chr.ChromsomeNumber.txt.gz",  ChromsomeNumber is 1, 2, 3...22, no header is needed).
 
 ### Usage:
 The current version only work on Unix, Linux and Mac System, R(>=3.4.4), R package "mvtnorm" and GCC(>=4.4.7) are required.
