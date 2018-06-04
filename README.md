@@ -1,4 +1,4 @@
-# AUC GWAS
+# SummaryAUC
 
 
 
@@ -36,7 +36,7 @@ Rscript auc.R
 
 
 ## Reference
-Xing Hua, Lei Song, Guoqin Yu, James J. Goedert, Christian C. Abnet, Maria Teresa Landi and Jianxin Shi. MicrobiomeGWAS: Evaluate the performance of polygenic risk prediction models in validation datasets with only summary level statistics. 
+Lei Song, Aiyi Liu, Molecular Genetics of Schizophrenia Consortium, Jianxin Shi. SummaryAUC: a tool for evaluating the performance of polygenic risk prediction models in validation datasets with only summary level statistics. 
 
 ## Contact
 * Lei Song, lei.song@nih.gov
