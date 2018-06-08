@@ -17,7 +17,7 @@ N1, Number of Cases.
 
 soFile, "getAdjCorrelation.so", which can be compiled through "R CMD SHLIB getAdjCorrelation.c" in the command line 
 
-KG.plink.pre, 1000 genome plink format file pre.
+KG.plink.pre, 1000 genome plink format file pre. The 1000 genome plink files can be downloaded ![here](https://www.dropbox.com/sh/d5y35kd9by72ejx/AAA0I2DfFy4kDeE-sEM4dCBQa?dl=0)
 
 pos_thr, the threshold for distance of SNPs, correlation will be caculated for any SNP pairs within this distance 
 
