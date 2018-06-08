@@ -9,7 +9,7 @@
 
 prs.model.file, a three columns txt file, "rsID", "Effective_Allele" and "BETA", no header is needed.
 
-gwas.summary.stats.file, GWAS summary statistics file, with "CHR", "SNP", "A1"(Effective Allele), "MAF", "BETA" or "OR", "P" and "INFO"(optional), header is required.
+gwas.summary.stats.file, GWAS summary statistics file, with "CHR", "SNP", "A1"(Effective Allele), "MAF", "BETA" or "OR", "P" and "INFO"(imputation R square score, set to 1 if it is genotyped; this column is optional), header is required.
 
 N0, Number of Controls.
 

@@ -159,8 +159,8 @@ res = auc(	prs.model.file = "/data/songl5/Jianxin/AUC.SCZ/data/pruning_imputatio
 
 cat("\n#######################################\n\n")
 
-cat("Predicted AUC:\t" res[1], "\n", sep = "")
-cat("Predicted AUC's variance:\t" res[2], "\n", sep = "")
+cat("Predicted AUC:\t", res[1], "\n", sep = "")
+cat("Predicted AUC's variance:\t", res[2], "\n", sep = "")
 
 cat("\nHave a nice Day!\n")
 
