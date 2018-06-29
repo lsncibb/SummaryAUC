@@ -17,7 +17,7 @@ N1, Number of Cases.
 
 soFile, "getAdjCorrelation.so", which can be compiled through "R CMD SHLIB getAdjCorrelation.c" in the command line 
 
-KG.plink.pre, 1000 genome plink format file pre. The 1000 genome plink files can be downloaded [here](https://www.dropbox.com/sh/d5y35kd9by72ejx/AAA0I2DfFy4kDeE-sEM4dCBQa?dl=0)
+KG.plink.pre, 1000 genome plink format file pre. The 1000 genome plink files can be downloaded [here](https://www.dropbox.com/sh/d5y35kd9by72ejx/AAA0I2DfFy4kDeE-sEM4dCBQa?dl=0).
 
 pos_thr, the threshold for distance of SNPs, correlation will be caculated for any SNP pairs within this distance 
 
@@ -42,7 +42,7 @@ Rscript auc.R
 
 
 ## Reference
-Lei Song, Aiyi Liu, Molecular Genetics of Schizophrenia Consortium, Jianxin Shi. SummaryAUC: a tool for evaluating the performance of polygenic risk prediction models in validation datasets with only summary level statistics. 
+Lei Song, Aiyi Liu, Molecular Genetics of Schizophrenia Consortium, Jianxin Shi. [SummaryAUC: a tool for evaluating the performance of polygenic risk prediction models in validation datasets with only summary level statistics](https://github.com/lsncibb/SummaryAUC/blob/master/ms.06062018.pdf). 
 
 ## Contact
 * Lei Song, lei.song@nih.gov
